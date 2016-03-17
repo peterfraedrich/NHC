@@ -1,0 +1,31 @@
+{
+  "name": "nhc",
+  "version": "0.0.0",
+  "description": "NGINX health check",
+  "main": "nhc.js",
+  "dependencies": {
+    "ini": "~1.3.4",
+    "nginx-conf": "~1.2.0",
+    "npm2": "~2.0.0",
+    "ping": "~0.1.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodemon nhc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/peterfraedrich/NHC.git"
+  },
+  "keywords": [
+    "nginx",
+    "health",
+    "check",
+    "nodejs"
+  ],
+  "author": "Peter Fraedrich",
+  "license": "MPLv2",
+  "bugs": {
+    "url": "https://github.com/peterfraedrich/NHC/issues"
+  }
+}
